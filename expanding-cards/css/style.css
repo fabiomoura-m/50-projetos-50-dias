@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+.container{
+  display: flex;
+  width: 90vw;
+}
+.panel{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  cursor: pointer;
+  flex-basis: 100px;
+  margin: 10px;
+  transition: flex 0.7s ease-in;
+  display: flex;
+  justify-content: center;
+}
+.panel-1{
+  background-image: url(../images/Praia_da_Barra_da_Tijuca.jpg);
+}
+.panel-2{
+  background-image: url(../images/Praia_de_Ipanema.jpg);
+}
+.panel-3{
+  background-image: url(../images/Praia_em_Búzios.jpg);
+}
+.panel-4{
+  background-image: url(../images/Praia_Vermelha.jpg);
+}
+.panel-5{
+  background-image: url(../images/Rio-de-Janeiro.jpg);
+}
+.panel h3{
+  margin-top: 10px;
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 0px 0px 1px #000;
+  opacity: 0;
+  font-weight: 400;
+}
+.panel.active{
+  flex: 5;
+}
+.panel.active h3{
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 768px){
+  .container{
+    width: 100vw;
+  }
+  .panel:nth-last-of-type(4),
+  .panel:nth-last-of-type(5){
+    display: none;
+  }
+}
