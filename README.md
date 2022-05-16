@@ -12,5 +12,6 @@ Repositório com intuito de colocar em prática o que venho estudando e aprender
 8. [Form-wave-animation](https://github.com/fabiomoura-m/50-projetos-50-dias/tree/main/form-wave-animation)
 9. [Sound-board](https://github.com/fabiomoura-m/50-projetos-50-dias/tree/main/sound-board)
 10. [Dad-jokes](https://github.com/fabiomoura-m/50-projetos-50-dias/tree/main/dad-jokes)
+11. [Event-keycodes](https://github.com/fabiomoura-m/50-projetos-50-dias/tree/main/event-keycodes)
 
 
