@@ -15,5 +15,6 @@ Repositório com intuito de colocar em prática o que venho estudando e aprender
 11. [Event-keycodes](https://github.com/fabiomoura-m/50-projetos-50-dias/tree/main/event-keycodes)
 12. [Faq-collapse](https://github.com/fabiomoura-m/50-projetos-50-dias/tree/main/faq-collapse)
 13. [Random-choice-picker](https://github.com/fabiomoura-m/50-projetos-50-dias/tree/main/random-choice-picker)
+14. [Animated-navigation](https://github.com/fabiomoura-m/50-projetos-50-dias/tree/main/animated-navigation)
 
 
