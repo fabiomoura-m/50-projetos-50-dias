@@ -4,7 +4,7 @@
 
 ## 📋 Descrição
 
-Projeto de uma barra de navegação que utilizando transition no css para fazer a animação.
+Projeto de um menu de navegação com animação realizado através das propriedades trasition e transform no css.
 
 ## 🚀 Tecnologias utilizadas
 
